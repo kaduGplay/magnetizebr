@@ -8,5 +8,5 @@ dist
 .agents
 .codex
 .aws
-supabase
-drizzle
+/supabase/
+/drizzle/
