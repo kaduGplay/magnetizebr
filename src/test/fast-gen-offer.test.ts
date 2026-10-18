@@ -2,8 +2,8 @@ import { describe, it, expect } from "vitest";
 import { FAST_GEN_OFFER } from "@/components/FastGenOfferModal";
 
 describe("oferta de Gerações Rápidas", () => {
-  it("custa R$9,90 (990 centavos)", () => {
-    expect(FAST_GEN_OFFER.amountCents).toBe(990);
+  it("custa R$8,90 (890 centavos)", () => {
+    expect(FAST_GEN_OFFER.amountCents).toBe(890);
   });
 
   it("entrega 100 créditos, o suficiente para 1 geração", () => {

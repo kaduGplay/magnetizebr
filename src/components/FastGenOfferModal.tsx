@@ -5,13 +5,13 @@ import { Button } from "@/components/ui/button";
 import { getStoredUtmParams } from "@/hooks/useUtmParams";
 
 /**
- * Oferta exclusiva da tela de Gerações Rápidas: R$9,90 por 100 créditos.
+ * Oferta exclusiva da tela de Gerações Rápidas: R$8,90 por 100 créditos.
  * Não interfere nos planos listados no CreditsModal.
  */
 export const FAST_GEN_OFFER = {
   planId: "fast-generations",
   planName: "Gerações Rápidas",
-  amountCents: 990,
+  amountCents: 890,
   credits: 100,
 } as const;
 
@@ -72,7 +72,7 @@ const FastGenOfferModal = ({ isOpen, onClose, onSeeAllPlans }: FastGenOfferModal
               {FAST_GEN_OFFER.credits} créditos por
             </p>
             <p className="mt-1 text-5xl font-black tracking-tight text-primary">
-              R$9,90
+              R$8,90
             </p>
             <p className="mt-1 text-xs text-muted-foreground">
               pagamento único via PIX

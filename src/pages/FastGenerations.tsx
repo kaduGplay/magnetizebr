@@ -145,7 +145,7 @@ const FastGenerations = () => {
 
   const handleBuyCredits = () => {
     setShowCreditsModal(false);
-    // Abre a oferta exclusiva de Gerações Rápidas (R$9,90)
+    // Abre a oferta exclusiva de Gerações Rápidas (R$8,90)
     setShowOfferModal(true);
   };
 
