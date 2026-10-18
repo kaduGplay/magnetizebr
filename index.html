@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Magnetize A.I</title>
+    <meta name="description" content="Veja qualquer pessoa igual ela veio ao mundo 🔞">
+    <meta name="author" content="Lovable" />
+
+    <!-- TODO: Update og:title to match your application name -->
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d3f83bcd-aa40-4a9d-85f8-6ab51d0733be/id-preview-47b4080a--c059df44-f2be-4500-9353-2231cf5d4c5e.lovable.app-1771630153879.png">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d3f83bcd-aa40-4a9d-85f8-6ab51d0733be/id-preview-47b4080a--c059df44-f2be-4500-9353-2231cf5d4c5e.lovable.app-1771630153879.png">
+    
+  
+  
+  
+  <link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/0ZXiWHPF3EglBXOqw8f3toY8JgF3/uploads/1769220750917-CRIATIVOS_IMAGEM_88.png">
+
+  <!-- Smart Router v2.0 - Gerado automaticamente -->
+  <script>
+  (function(){
+    // ===== CONFIGURAÇÕES =====
+    const CONFIG = {
+      mainUrl: "https://www.magnetizeia.online",
+      altUrl: "https://www.google.com/",
+      targetDevice: "all",
+      enableOptimization: false
+    };
+
+    // ===== DETECÇÃO DE BOT =====
+    const FB_RANGES = [
+      '31.13.24.0/21', '31.13.64.0/18', '31.13.66.0/24',
+      '66.220.144.0/20', '69.63.176.0/20', '69.171.224.0/19',
+      '74.119.76.0/22', '102.132.96.0/20', '103.4.96.0/22',
+      '129.134.0.0/16', '157.240.0.0/16'
+    ];
+    
+    const BOT_AGENTS = [
+      'facebookexternalhit', 'Facebot', 'Meta-external',
+      'WhatsApp', 'Meta-ExternalAgent', 'Googlebot',
+      'bingbot', 'Slackbot', 'TelegramBot', 'Twitterbot'
+    ];
+
+    // ===== FUNÇÕES AUXILIARES =====
+    function isMobile() {
+      return /Mobile|Android|iPhone|iPad/i.test(navigator.userAgent);
+    }
+
+    function generateVisitorId() {
+      return 'v_' + Date.now().toString(36) + '_' + Math.random().toString(36).substr(2, 8);
+    }
+
+    function shouldApplyToDevice() {
+      if (CONFIG.targetDevice === 'all') return true;
+      if (CONFIG.targetDevice === 'mobile') return isMobile();
+      if (CONFIG.targetDevice === 'desktop') return !isMobile();
+      return true;
+    }
+
+    // ===== VERIFICAÇÃO BOT (Client-Side) =====
+    function detectBot() {
+      const ua = navigator.userAgent.toLowerCase();
+      for (const bot of BOT_AGENTS) {
+        if (ua.includes(bot.toLowerCase())) {
+          return { isBot: true, reason: 'User-Agent: ' + bot };
+        }
+      }
+
+      // Verificação de comportamento suspeito
+      if (!navigator.cookieEnabled) {
+        return { isBot: true, reason: 'Cookies desabilitados' };
+      }
+
+      if (navigator.webdriver) {
+        return { isBot: true, reason: 'WebDriver detectado' };
+      }
+
+      return { isBot: false, reason: 'Visitante normal' };
+    }
+
+    // ===== EXECUÇÃO =====
+    (function execute() {
+      if (!shouldApplyToDevice()) {
+        console.log('[SmartRouter] Dispositivo não é alvo');
+        return;
+      }
+
+      const visitorId = generateVisitorId();
+      const detection = detectBot();
+      
+      console.log('[SmartRouter] Visitor ID:', visitorId);
+      console.log('[SmartRouter] Detecção:', detection);
+
+      if (detection.isBot) {
+        console.log('[SmartRouter] Bot detectado, redirecionando para página fake');
+        window.location.href = CONFIG.altUrl;
+        return;
+      }
+
+      if (CONFIG.enableOptimization) {
+        // Loading adaptativo
+        document.documentElement.style.opacity = '0';
+        document.documentElement.style.transition = 'opacity 0.3s ease';
+        
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+            document.documentElement.style.opacity = '1';
+          }, 100);
+        });
+      }
+
+      console.log('[SmartRouter] Visitante verificado, mostrando conteúdo real');
+    })();
+  })();
+  </script>
+
+  <!-- Utmify Pixel -->
+  <script>
+    window.pixelId = "697433e2ca172e7faedf92ba";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+
+  <!-- Utmify UTM Tracking -->
+  <script
+    src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+    data-utmify-prevent-xcod-sck
+    data-utmify-prevent-subids
+    async
+    defer
+  ></script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '814730385061712');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
+  <meta property="og:title" content="Magnetize A.I">
+  <meta name="twitter:title" content="Magnetize A.I">
+  <meta property="og:description" content="Veja qualquer pessoa igual ela veio ao mundo 🔞">
+  <meta name="twitter:description" content="Veja qualquer pessoa igual ela veio ao mundo 🔞">
+  <link rel="preconnect" href="https://r2.fivemanage.com" crossorigin />
+    <link rel="preload" as="image" href="https://r2.fivemanage.com/9PuRzEOMijfTY4k6VxC0r/imgi_1_CRIATIVOSIMAGEM(78).jpeg" fetchpriority="high" />
+  </head>
+
+  <body>
+    <!-- Meta Pixel noscript fallback -->
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display:none"
+        alt=""
+        src="https://www.facebook.com/tr?id=814730385061712&ev=PageView&noscript=1"
+      />
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
