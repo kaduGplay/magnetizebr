@@ -56,7 +56,7 @@ const InsufficientCreditsModal = ({
           {/* Texto principal */}
           <div className="relative text-center space-y-1">
             <h2 className="text-2xl font-bold text-foreground leading-tight">
-              {hasNoCredits ? "Seus créditos acabaram," : "Faltam créditos,"}
+              {hasNoCredits ? "🎁 Seus créditos acabaram," : "Faltam créditos,"}
             </h2>
             <p className="text-primary font-medium">
               mas temos um presente para você!
@@ -75,7 +75,7 @@ const InsufficientCreditsModal = ({
             </p>
             {hasNoCredits ? (
               <p className="text-sm leading-relaxed text-muted-foreground">
-                com só R$19,90 você recebe{" "}
+                com só R$9,90 você recebe{" "}
                 <span className="text-foreground font-bold">
                   40 créditos extras
                 </span>{" "}
@@ -83,7 +83,7 @@ const InsufficientCreditsModal = ({
               </p>
             ) : (
               <p className="text-sm leading-relaxed text-muted-foreground">
-                com só R$19,90 você recebe{" "}
+                com só R$9,90 você recebe{" "}
                 <span className="text-foreground font-bold">
                   40 créditos extras
                 </span>{" "}
