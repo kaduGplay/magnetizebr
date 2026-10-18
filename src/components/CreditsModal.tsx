@@ -198,6 +198,18 @@ const CreditsModal = ({ isOpen, onClose }: CreditsModalProps) => {
                       </div>
                       <p className="text-sm text-white/40 mb-6">{plan.period}</p>
 
+                      {plan.id === "basic" && (
+                        <div className="mb-5 flex items-center gap-3 rounded-xl border border-amber-300/30 bg-gradient-to-r from-amber-400/15 via-yellow-300/10 to-amber-500/5 p-3 shadow-lg shadow-amber-500/5">
+                          <span aria-hidden="true" className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-300/10 text-2xl">
+                            🎁
+                          </span>
+                          <div className="text-left">
+                            <p className="text-[10px] font-bold uppercase tracking-widest text-amber-200/80">Presente</p>
+                            <p className="text-sm font-bold text-amber-100">40 créditos extras</p>
+                          </div>
+                        </div>
+                      )}
+
                       {/* Videos and Credits */}
                       <div className="flex justify-center gap-6 mb-5">
                         <div className="text-center px-4 py-3 rounded-xl bg-white/5 border border-white/10">
